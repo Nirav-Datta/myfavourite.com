@@ -1,0 +1,61 @@
+body{
+  text-align:center;
+}
+p{
+  font-size:30px
+}
+h2{
+  font-size:50px;
+}
+h1{
+  font-size:70px;
+}
+.menu{
+    list-style:none;
+    font-family:monospace;
+    position:absolute;
+    top:10px;
+    right:30px;
+    z-index:10;
+  cursor:pointer;
+}
+.links{
+    float:left;
+    color:Black;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom:5px;
+    font-family:fantasy;
+    font-size:20px;
+  color:white !important;
+}
+.links:hover {
+    background-color:dodgerblue;
+   
+}
+#hobby{
+  background-color:#18b842;
+}
+#first{
+  background-color:#18b885;
+}
+.menu{
+  background-color:tomato !important;
+}
+#images{
+  background-color:cyan;
+}
+html{
+scroll-behaviour:smooth;
+}
+#inspiration{
+  background-color:yellow;
+}
+#ae:hover{
+  background-color:red;
+  transform:scale(1.1)
+}
+#contact{
+  background-color:gold;
+}
